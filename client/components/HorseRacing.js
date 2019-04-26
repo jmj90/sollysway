@@ -15,6 +15,11 @@ export default class HorseRacing extends Component {
             <br />
             <br />
             <br />
+            {
+              window.innerWidth <= 815 ?
+              <img id="dayrace" src="/assets/dayraces_title.png" />
+              :
+              <div>
               <div className="cursive">Day at the Races!</div>
               <div className="bannerText">
                 SATURDAY JULY 20, 2019
@@ -28,8 +33,15 @@ export default class HorseRacing extends Component {
               <div className="small-white-text"> Please join us for a fun day at Arlington Race Course this summer for
                 the Solly's Way Foundation "Day at the Races" fundraiser!
               </div>
+              </div>
+            }
               <br />
-              <button className="button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="VIEW EVENT DETAILS"><span>VIEW EVENT DETAILS</span></button>
+              <button
+                className="button button--rayen button--border-thin button--text-thick button--text-upper button--size-s"
+                data-text="VIEW EVENT DETAILS"
+                onClick={() => window.location.href='/events'}>
+                <span>VIEW EVENT DETAILS</span>
+              </button>
               <br/>
           </center>
         </div>

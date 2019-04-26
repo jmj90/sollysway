@@ -13,7 +13,8 @@ import {
   Confirmation,
   Construction,
   Error,
-  Four04
+  Four04,
+  HorseRacingInformation
 } from './components'
 import fetchContacts from './store'
 
@@ -39,6 +40,7 @@ class Routes extends Component {
         <Route exact path="/confirmation" component={Confirmation} />
         <Route exact path="/error_500" component={Error} />
         <Route exact path="/error_404" component={Four04} />
+        <Route exact path="/dayattheraceseventinformation" component={HorseRacingInformation} />
 
         {/* Displays our Login component as a fallback */}
         {/*<Route component={Construction} /> */}
