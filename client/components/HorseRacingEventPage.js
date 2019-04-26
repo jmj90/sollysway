@@ -12,7 +12,7 @@ export default class HorseRacingEventPage extends Component {
         <div className="full-width-center">
           <img id="dayrace-2" src="/assets/dayraces_title.png" />
         </div>
-      <div id="event-outing">
+      <div id="event-outing-2">
         <div className="rem-spacer" />
         <div className="rem-spacer" />
         <div className='ticketstub-container'>
