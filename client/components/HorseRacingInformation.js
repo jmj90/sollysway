@@ -15,11 +15,19 @@ export default class HorseRacingInformation extends Component {
         strength={300}
         blur={8}>
         <div className="centered">
+          <h1> Event Day Information </h1>
           <br /><br />
           <img className="map" src="/assets/2019_Directions_Dress_Code_1.png" />
           <br /><br />
           <img className="map" src="/assets/2019_Directions_Dress_Code_2.png" />
           <br /><br />
+            <button
+              className="button button--rayen-black button--border-thin button--text-thick button--text-upper button--size-s"
+              data-text="Sponsorship Packet"
+              onClick={() => window.open('/assets/SollysWay_Sponsorship.pdf')}>
+              <span>Sponsorship Packet</span>
+            </button>
+            <br /><br />
             <button
               className="button button--rayen-2 button--border-thin button--text-thick button--text-upper button--size-s"
               data-text="BACK TO EVENTS"

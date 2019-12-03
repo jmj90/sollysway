@@ -47,6 +47,12 @@ h2 {
   font-size: 20px;
 }
 
+h4 {
+  font-size: 16px;
+  color: #c60000;
+  margin: 0;
+}
+
 li {
   font-size: 15px;
 }
@@ -618,16 +624,18 @@ li {
   font-family: 'Helvetica', sans-serif;
   text-transform: uppercase;
   letter-spacing: 2.3px;
-  color: black;
+  color: #1a1e1b;
   font-size: 15px;
   margin-right: 1.5rem;
   margin-left: 1.5rem;
   margin-bottom: .8rem;
+  transition: .2s ease;
+  cursor: pointer;
 }
 
 .header-nav-item:hover {
-  cursor: pointer;
-  text-decoration: underline;
+  color: white;
+  text-shadow: 2px 2px 10px black;
 }
 
 
@@ -681,6 +689,7 @@ li {
 
 #footer-connect-nav {
   display: flex;
+  width: 27%;
   align-items: center;
   justify-content: center;
 }
@@ -1064,8 +1073,8 @@ li {
 
 #header-logo {
   display: flex;
-  max-height: 71px;
-  margin-left: 2rem;
+  max-height: 50px;
+  /* margin-left: 2rem; */
   margin-right: 2rem;
 }
 
@@ -1107,33 +1116,33 @@ cursor: pointer;
 
 #facebook-logo {
   cursor: pointer;
-  max-height: 43px;
+  max-height: 25px;
 }
 
 #facebook-logo:hover {
-  padding-bottom: 3px;
+  margin-bottom: 3px;
   -webkit-filter: drop-shadow(0 5px 6px rgba(255,255,255,.5));
 }
 
 #email-logo {
   cursor: pointer;
-  max-height: 37px;
-  margin-left: 1rem;
+  max-height: 25px;
+  margin-left: 1.3rem;
 }
 
 #email-logo:hover {
-  padding-bottom: 3px;
+  margin-bottom: 3px;
   -webkit-filter: drop-shadow(0 5px 6px rgba(255,255,255,.5));
 }
 
 #instagram-logo {
   cursor: pointer;
-  max-height: 39px;
-  margin-left: 1rem;
+  max-height: 25px;
+  margin-left: 1.3rem;
 }
 
 #instagram-logo:hover {
-  padding-bottom: 3px;
+  margin-bottom: 3px;
   -webkit-filter: drop-shadow(0 5px 6px rgba(255,255,255,.5));
 }
 
@@ -1177,7 +1186,7 @@ cursor: pointer;
 
   #header-logo {
     display: flex;
-    max-height: 71px;
+    max-height: 50px;
     margin-left: 0rem;
     margin-right: 0rem;
   }
@@ -1224,7 +1233,7 @@ cursor: pointer;
     border-bottom: solid black thin;
     height: 80px;
     background-color: white;
-    position: fixed;
+    position: relative;
     width: 100vw;
   }
 
@@ -1247,7 +1256,7 @@ cursor: pointer;
   #header-logo {
     display: flex;
     justify-content: center;
-    max-height: 60px;
+    max-height: 40px;
     /* margin-left: 0rem; */
     margin-top: 0;
     /* margin-right: 10rem; */
@@ -1793,6 +1802,36 @@ cursor: pointer;
     color: white;
     font-size: 20px;
   }
+
+  #dayrace-2 {
+    margin-top: 8rem;
+    margin-bottom: 1rem;
+    max-height: 200px;
+}
+
+#ticketstub {
+    max-height: 100px;
+}
+
+.ticketstub-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0em;
+}
+
+#event-outing-2 {
+    display: block;
+    justify-content: center;
+    padding-bottom: 10rem;
+    width: auto;
+}
+
+.map {
+  padding-top: 2rem;
+  max-height: 300px;
+}
 
   #mkray-logo {
     display: none;

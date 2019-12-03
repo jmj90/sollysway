@@ -30,13 +30,13 @@ export default class Footer extends Component {
             <div className="footer-nav-text"> connect with us : </div>
             <img
               id="facebook-logo"
-              src="/assets/facebook.png"
+              src="/assets/facebook_white.png"
               onClick={() => window.location.href="https://www.facebook.com/pages/Sollys-Way-Foundation/593681160660088"}/>
             <img
               id="instagram-logo"
-              src="/assets/instagram.png"
+              src="/assets/ig_white.png"
               onClick={() => window.location.href="https://www.instagram.com/sollysway/"}/>
-            <img id="email-logo" src="/assets/email.png" />
+            <img id="email-logo" src="/assets/email_white.png" />
           </div>
       </div>
       <div className="copy">

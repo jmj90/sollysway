@@ -2,7 +2,8 @@ import React, { Component } from 'react'
 import { Parallax, Background } from 'react-parallax';
 import { Parallax as Plax } from 'react-scroll-parallax'
 import Footer from './Footer'
-import HorseRacing from './HorseRacing'
+import SailAway from './SailAway'
+import VideoFrame from './VideoFrame'
 import DonationContainer from './DonationContainer'
 import Nav from './Nav'
 
@@ -13,7 +14,8 @@ export default class Lander extends Component {
     return (
       <div>
         <Nav />
-        <HorseRacing />
+        <SailAway />
+        <VideoFrame />
         <DonationContainer />
             <div className="breakpoint-container">
               <div className="text-center-medium">

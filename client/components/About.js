@@ -65,17 +65,35 @@ export default class About extends Component {
                     <img id="placer2" src="/assets/photos/family.jpg" />
                   </div>
                 </div>
-              <div className="subpage-header-title"> Learn about our scholarship program </div>
-              {
-                window.innerWidth <= 800 ?
+                <div className="rem2-spacer" />
+                <div className="divider" />
+                <h2>The Solly's Way Team</h2>
                 <div>
-                  <img className="breakpoint-icons" onClick={() => window.location.href="/scholarships"} src="/assets/gradhat.png" />
-                  <br/><br/>
-                  <br/>
+                  <div style={{lineHeight: "30px"}}>
+                    <h4><i>Executive Board:</i></h4>
+                    <b>Chairman: </b>Anthony DeLaurentis
+                    <br />
+                    <b>President: </b>Sharyn DeLaurentis
+                    <br />
+                    <b>Vice President: </b>Stacey Harding
+                    <br />
+                    <b>Treasurer: </b>Rianna DeLaurentis
+                    <br />
+                    <b>Secretary: </b>Natalie DeLaurentis
+                    <br />
+                    <b>Head of Sponsorship: </b>Carlie Barbara
+                  </div>
+                  <br />
+                  <div style={{lineHeight: "30px"}}>
+                    <h4><i>Board of Directors:</i></h4>
+                    Kate Ahern, Jodie Barbara, Jerry DeLaurentis, Gina Johnson, Jake Johnson
+                  </div>
                 </div>
-                :
-                <img id="books" onClick={() => window.location.href="/scholarships"} src="/assets/books.jpg" />
-              }
+              <div className="subpage-header-title"> Learn about our scholarship program </div>
+              <br/><br/>
+                <button className="button button--rayen-2 button--border-thin button--text-thick button--text-upper button--size-m" data-text="Learn More" onClick={() => window.location.href='/scholarships'}><span>Learn more</span></button>
+              <br/><br/>
+              <br/><br/>
           </div>
         </div>
         <Footer />
