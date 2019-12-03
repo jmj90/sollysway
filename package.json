@@ -2,6 +2,9 @@
   "name": "sollysWay",
   "version": "1.0.0",
   "description": "Sollys Way Foundation",
+  "engines": {
+    "node": "10.13.0"
+  },
   "main": "index.js",
   "scripts": {
     "deploy": "scripts/deploy",
