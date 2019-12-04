@@ -11,7 +11,7 @@ export default class VideoFrame extends Component {
         {
           window.innerWidth <= 800 ?
           <div className="video-frame" style={{margin:"3rem"}}>
-            <iframe src="https://player.vimeo.com/video/373448456" width="540" height="260" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            <iframe src="https://player.vimeo.com/video/373448456" width="500" height="220" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
             </div>
             :
             <div className="video-frame" style={{margin:"3rem"}}>
