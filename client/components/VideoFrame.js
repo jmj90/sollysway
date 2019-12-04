@@ -10,7 +10,7 @@ export default class VideoFrame extends Component {
       <div style={{display: "flex", justifyContent:"center", alignItems: "center", maxWidth: "100vw", backgroundImage: `url("/assets/landerimages/ivy.jpg")`}}>
         {
           window.innerWidth <= 800 ?
-          <div className="video-frame" style={{margin:"3rem"}}>
+          <div className="video-frame" style={{margin:"5px"}}>
             <iframe src="https://player.vimeo.com/video/373448456" width="500" height="220" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
             </div>
             :
