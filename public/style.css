@@ -1242,9 +1242,9 @@ cursor: pointer;
     justify-content: center;
     align-items: center;
     background-size: contain;
-    border-bottom: solid black thin;
+    border-bottom: none;
     height: 80px;
-    background-color: white;
+    background-color: transparent;
     position: fixed;
     width: 100vw;
   }
@@ -1256,10 +1256,14 @@ cursor: pointer;
   #header-logo {
     display: flex;
     justify-content: center;
-    max-height: 40px;
+    max-height: 30px;
     /* margin-left: 0rem; */
     margin-top: 0;
     /* margin-right: 10rem; */
+  }
+
+  #player {
+    display: none !important;
   }
 
   #confirmation-logo {

@@ -8,9 +8,16 @@ export default class VideoFrame extends Component {
   render() {
     return (
       <div style={{display: "flex", justifyContent:"center", alignItems: "center", maxWidth: "100vw", backgroundImage: `url("/assets/landerimages/ivy.jpg")`}}>
-        <div className="video-frame" style={{margin:"3rem"}}>
-          <iframe src="https://player.vimeo.com/video/373448456" width="840" height="560" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-          </div>
+        {
+          window.innerWidth <= 800 ?
+          <div className="video-frame" style={{margin:"3rem"}}>
+            <iframe src="https://player.vimeo.com/video/373448456" width="540" height="260" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            </div>
+            :
+            <div className="video-frame" style={{margin:"3rem"}}>
+              <iframe src="https://player.vimeo.com/video/373448456" width="840" height="560" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            </div>
+        }
       </div>
     )
   }
