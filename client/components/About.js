@@ -75,21 +75,21 @@ export default class About extends Component {
                     <br />
                     <b>President: </b>Sharyn DeLaurentis
                     <br />
-                    <b>Vice President: </b>Stacey Harding
+                    <b>Vice President: </b>Stacy Harding
                     <br />
                     <b>Treasurer: </b>Rianna DeLaurentis
                     <br />
                     <b>Secretary: </b>Natalie DeLaurentis
                     <br />
-                    <b>Head of Sponsorship: </b>Carlie Barbara
+                    <b>Head of Sponsorship: </b>Carlie Barbera
                   </div>
                   <br />
                   <div style={{lineHeight: "30px"}}>
                     <h4><i>Board of Directors:</i></h4>
-                    Kate Ahern, Jodie Barbara, Jerry DeLaurentis, Gina Johnson, Jake Johnson
+                    Kate Ahern, Jodie Barbera, Jerry DeLaurentis, Gina Johnson, Jake Johnson
                   </div>
                 </div>
-              <div className="subpage-header-title"> Learn about our scholarship program </div>
+              <div className="subpage-header-title"> Learn About Our Scholarship Program </div>
               <br/><br/>
                 <button className="button button--rayen-2 button--border-thin button--text-thick button--text-upper button--size-m" data-text="Learn More" onClick={() => window.location.href='/scholarships'}><span>Learn more</span></button>
               <br/><br/>

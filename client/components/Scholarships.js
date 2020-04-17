@@ -100,6 +100,11 @@ export default class Scholarships extends Component {
               </div>
               <div id="scholarship-list">
               <div id="recipients-container">
+                <div className="recipients-year-title"> 2019: </div>
+                <ul className="recipient-list">
+                  <li> <b> Justin Spiegel,</b> Barrington High School </li>
+                  <li> <b> Kaylie Madden,</b> Barrington High School </li>
+                </ul>
                 <div className="recipients-year-title"> 2018: </div>
                 <ul className="recipient-list">
                   <li> <b> Julia Shein,</b> Barrington High School </li>

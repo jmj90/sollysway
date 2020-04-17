@@ -886,11 +886,19 @@ li {
   flex-direction: column;
   align-self: flex-start;
   flex-wrap: wrap;
-  height: 400px;
+  height: 500px;
 }
 
 #scholarship-list {
   width: 1000px
+}
+
+.past-event-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 1rem 0 2rem 0;
+  width: 100% !important;
+  max-width: 800px !important;
 }
 
 
