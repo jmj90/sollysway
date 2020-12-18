@@ -49,7 +49,7 @@ export default class Nav extends Component {
     return (
       <div>
         <div id="header-lander-container">
-          <img id="header-logo" src="/assets/sollysway5.png"/>
+          <img id="header-logo" src="/assets/sollyslogo3.png"/>
           <div id="header-nav">
             <div className="header-nav-item noselect" onClick={this.navClick} value="about">About</div>
             <div className="header-nav-item noselect" onClick={this.navClick} value="scholarships">Scholarships</div>
